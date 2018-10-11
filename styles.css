@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ebebeb;
+    background: url("images/fon.png");
+}
+
+.wrap {
+    margin: auto;
+}
+
+.header-td {
+    text-align: center;
+    font-size: 11px;
+    font-family: Myriad Pro, sans-serif;
+}
+
+.header-table {
+    width: 100%;
+}
+
+.header-td_bgc {
+    background-color: #fff;
+}
+
+.header-td_p15px {
+    padding: 15px 0;
+}
+
+.content-td {
+
+}
+
+.content-table {
+    background-color: #fff;
+}
+
+.content-td__banner {
+    width: 100%;
+}
+
+.content-td_bgc {
+    background-color: #e5e7eb;
+}
+
+.content-td_style_big {
+    color: #f30017;
+    font-family: Myriad Pro;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+.content-td_style_middle {
+    color: #3e3e3e;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: Myriad Pro;
+}
+
+.content-td_style_small {
+    font-size: 12px;
+    color: #191919;
+}
+
+.content-td__text {
+    text-align: center;
+    font-family: Myriad Pro;
+    font-size: 16px;
+    color: #4c4c4c;
+
+    padding: 10px;
+}
+
+.content-td__text_bold {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    color: #272022;
+}
+
+.content-td_info {
+    background-color: #ffffff;
+    width: 610px;
+}
+
+.content-td__button {
+    text-align: center;
+    padding: 40px 0 50px 0;
+
+}
+
+.button {
+    background-color: #b6032a;
+    font-family: Myriad Pro;
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 15px 30px;
+
+    outline: none;
+    cursor: pointer;
+}
+
+.button_60px {
+    height: 60px;
+}
+
+.footer-table {
+
+}
+
+.footer-td {
+    text-align: center;
+    padding: 15px 0;
+}
+
+.footer-td__text {
+    color: #737373;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+.footer-td__text_color {
+    color: #fff;
+}
+
+.footer-td__text_small {
+    font-size: 10px;
+}
+
+.footer-td__text_big {
+    font-size: 28px;
+    text-align: center;
+}
+
+.footer-td__text-link {
+    color: #648fdf;
+}
+
+.footer-td__text-link_color {
+    color: #737373;
+    text-decoration: none;
+}
+
+.footer-td__text-link_noline {
+    text-decoration: none;
+}
+
+.footer-td__icon {
+    padding-right: 5px;
+}
+
+.footer-td_bgc {
+    background-color: #999999;
+}
+
+.footer-td__image {
+    float: left;
+    margin: 10px 20px;
+}
