@@ -203,3 +203,41 @@ body {
     float: left;
     margin: 10px 20px;
 }
+
+/*----Mobile version----*/
+
+@media  screen and (max-width: 768px){
+
+    .content-td__text_banner,
+    .content-td__text_banner_link_arrow {
+        display: none;
+    }
+
+    .content-td__text_banner_link {
+        position: absolute;
+        top: 140px;
+        right: 115px;
+        font-size: 30px;
+
+        background-color: #b6032a;
+        font-family: Myriad Pro, Helvetica, sans-serif;
+        text-align: center;
+        color: #ffffff;
+        padding: 15px 30px;
+
+        outline: none;
+        cursor: pointer;
+    }
+
+    .wrap {
+        width: auto;
+    }
+
+    .content-td__text_banner {
+        width: 100%;
+    }
+
+    .content-td__text {
+        font-size: 20px;
+    }
+}
