@@ -1,3 +1,5 @@
+/*----Общие стили----*/
+
 html, body {
     margin: 0;
     padding: 0;
@@ -13,14 +15,18 @@ body {
     border: none;
 }
 
+/*----Header----*/
+
 .header-td {
     text-align: center;
+
     font-size: 11px;
     font-family: Myriad Pro, sans-serif;
 }
 
 .header-table {
     width: 100%;
+
     border-collapse: collapse;
     border: none;
 }
@@ -33,8 +39,11 @@ body {
     padding: 15px 0;
 }
 
+/*----Content----*/
+
 .content-table {
     background-color: #fff;
+
     border-collapse: collapse;
     border: none;
 }
@@ -48,6 +57,7 @@ body {
     position: absolute;
     top: 137px;
     right: 38px;
+
     font-size: 48px;
     color: #f30017;
     text-transform: uppercase;
@@ -56,33 +66,35 @@ body {
 .content-td__text_banner_middle {
     color: #3e3e3e;
     font-size: 18px;
+
     text-align: left;
     text-transform: uppercase;
 }
 
 .content-td__text_banner_link {
     position: absolute;
+    top: 370px;
+    right: 30px;
+
     text-decoration: none;
     color: #191919;
     font-size: 12px;
     font-weight: bold;
-    vertical-align: middle;
     padding: 5px;
-
-    top: 370px;
-    right: 30px;
 }
 
 .content-td__text_banner_link_arrow {
     position: absolute;
     top: 377px;
     right: 19px;
+
     font-size: 10px;
 }
 
 .content-td_bgc {
-    background-color: #ecf0f3;
     position: relative;
+
+    background-color: #ecf0f3;
 }
 
 .content-td_style_big {
@@ -120,23 +132,22 @@ body {
     color: #272022;
 }
 
-.content-td_info {
-    background-color: #ffffff;
-    width: 610px;
-}
-
 .content-td__button {
     text-align: center;
-    padding: 40px 0 50px 0;
 
+    padding: 40px 0 50px 0;
 }
 
+/*----Buttons----*/
+
 .button {
-    background-color: #b6032a;
     font-family: Myriad Pro, Helvetica, sans-serif;
     text-align: center;
     font-size: 16px;
+
+    background-color: #b6032a;
     color: #ffffff;
+
     padding: 15px 30px;
 
     outline: none;
@@ -147,13 +158,17 @@ body {
     height: 60px;
 }
 
+/*----Footer----*/
+
 .footer-td {
     text-align: center;
+
     padding: 15px 0;
 }
 
 .footer-table {
     width: 100%;
+
     border: none;
     border-collapse: collapse;
 }
@@ -206,7 +221,7 @@ body {
 
 /*----Mobile version----*/
 
-@media  screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
 
     .content-td__text_banner,
     .content-td__text_banner_link_arrow {
