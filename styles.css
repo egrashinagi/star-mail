@@ -1,4 +1,4 @@
-* {
+html, body {
     margin: 0;
     padding: 0;
 }
@@ -32,6 +32,8 @@ body {
 
 .content-table {
     background-color: #fff;
+    border-collapse: collapse;
+    border: none;
 }
 
 .content-td__banner {
@@ -40,6 +42,7 @@ body {
 
 .content-td_bgc {
     background-color: #ecf0f3;
+    position: relative;
 }
 
 .content-td_style_big {
@@ -107,6 +110,12 @@ body {
 .footer-td {
     text-align: center;
     padding: 15px 0;
+}
+
+.footer-table {
+    width: 100%;
+    border: none;
+    border-collapse: collapse;
 }
 
 .footer-td__text {
