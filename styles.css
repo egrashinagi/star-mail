@@ -224,6 +224,7 @@ body {
         text-align: center;
         color: #ffffff;
         padding: 15px 30px;
+        font-weight: normal;
 
         outline: none;
         cursor: pointer;
@@ -239,5 +240,9 @@ body {
 
     .content-td__text {
         font-size: 20px;
+    }
+
+    table {
+        width: auto;
     }
 }
