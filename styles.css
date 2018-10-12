@@ -249,6 +249,10 @@ body {
         width: auto;
     }
 
+    .content-td__banner {
+        width: 100%;
+    }
+
     .content-td__text_banner {
         width: 100%;
     }
