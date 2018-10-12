@@ -38,6 +38,43 @@ body {
 
 .content-td__banner {
     width: 666px;
+    position: relative;
+}
+
+.content-td__text_banner {
+    position: absolute;
+    top: 137px;
+    right: 38px;
+    font-size: 48px;
+    color: #f30017;
+    text-transform: uppercase;
+}
+
+.content-td__text_banner_middle {
+    color: #3e3e3e;
+    font-size: 18px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.content-td__text_banner_link {
+    position: absolute;
+    text-decoration: none;
+    color: #191919;
+    font-size: 12px;
+    font-weight: bold;
+    vertical-align: middle;
+    padding: 5px;
+
+    top: 370px;
+    right: 30px;
+}
+
+.content-td__text_banner_link_arrow {
+    position: absolute;
+    top: 377px;
+    right: 19px;
+    font-size: 10px;
 }
 
 .content-td_bgc {
