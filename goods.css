@@ -1,0 +1,36 @@
+/*карточки товаров*/
+
+.button_goods {
+    background-color: #3b98c3;
+    font-size: 17px;
+    padding: 5px 10px;
+}
+
+.content-td_bgc_goods {
+    border: 1px solid #3b98c3;
+
+    padding: 0 5px 10px;
+    text-align: center;
+}
+
+.goods__text_title {
+    text-transform: uppercase;
+    font-size: 12px;
+    width: 170px;
+}
+
+.goods__text_price_none {
+    color: #868787;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.goods__text_price_new {
+    color: #ff6600;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.goods__text_p15px {
+   line-height: 15px;
+}
